@@ -2,19 +2,55 @@ img {
     height: 300px;
     width: 400px;
 }
-
 div.post-header {
     display: flex;
 }
+div.iconohtml5 {
+    font-size: 25px;
+    padding: 10px 3px 10px 5px;
+}
+div.htmlrigoberto {
+    padding: 1px;
+    flex: 1;
+}
+div.elipsis {
+    font-size: 25px;
+    padding: 7px 7px;
+}
+p.html51 {
+    font-size: 11px;
+}
 div.post-icons {
     display: flex;
+    padding: 5px 3px 10px 3px;
+    font-size: 24px;
 }
 div.postcard {
     background-color: white;
-    height: 550px;
+    height: 530px;
     width: 400px;
 }
-
+div.centrado-total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 body {
     background-color: black;
+    font-family: "roboto-consensed", "roboto";
+    font-size: 15px;
+}
+p.likes, p.lorem {
+    margin: 10px;
+    font-size: 13px;
+}
+div.heart, div.comment, div.send {
+    padding-left: 7px;
+}
+div.send {
+    flex: 1;
+}
+div.save {
+    padding-right: 7px;
 }
